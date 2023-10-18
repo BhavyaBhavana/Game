@@ -1,0 +1,54 @@
+
+body{
+    background: pink;
+}
+
+.login_div1 , .login_div2{
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 10px;
+}
+
+#player1_name , #player2_name{
+    display: inline-block;
+    margin-left: 20px;
+}
+#word{
+    width: 40%;
+}
+#word_display{
+    letter-spacing: 5px;
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 20px solid #ccc;
+    padding: 20px;
+    float: none;
+    text-align: left;
+    }
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ce4a4a;
+    background-color: #AA4465;
+    color: #2183b8;
+    font-size:16px;
+}
+label{
+    font-weight: 100;
+    color: aquamarine;
+    margin-bottom: 5px;
+}
+input[type="submit"]{
+    background-color: bisque;
+    color: forestgreen;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: darkturquoise;
+}
